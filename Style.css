@@ -1,0 +1,144 @@
+#header{
+    background-color: aquamarine;
+    text-align: center;
+    margin: 20px;
+    width: 100%;
+    font-family: sans-serif;
+    }
+
+#navbar ul{
+    background-color:aquamarine;
+    width:100%;
+    text-align: center;
+    align-content: center;
+    }
+
+#navbar li{
+    width: 15%;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid black;
+    background-color: cadetblue;  
+}
+
+#img{
+   text-align: center;
+}
+
+#navbar a{
+    text-decoration: none;
+    color: #1a1aff;
+}
+#navbar li:hover{
+    background-color: #d580ff;
+    
+}
+footer{
+    font-family: sans-serif;
+    background-color: #7575a3;
+    text-align: right;
+    margin: 20px;
+}
+div{
+    margin: 20px;
+    padding: inherit;
+    font-family:sans-serif;
+}
+
+h2{
+    font-size: 1.5em;
+}
+
+fieldset{
+    background-color: #b3ffd9;
+}
+
+
+/*navbar ul {
+    list-style: none;
+    width: 500px;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #222;
+    text-align: center;
+}
+
+.navbar li {
+    width: 100px;
+    background-color:cadetblue;
+    border: 1px solid black;
+    display: inline-block;
+    line-height: 40px;
+    color:darkmagenta;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar li:hover {
+    background-color:coral;
+}
+
+.navbar a:hover {
+    color: #000;
+}
+
+img{
+    Width: 400px;
+    margin-left: 40px;
+}
+#contact {
+  color: #fff;
+  background-color:darkslateblue;
+  border: 1px solid #333;
+  padding: 10px;
+  width: 600px;
+}
+
+#contact input[type="submit"] {
+  border: 1px solid #111;
+  width: 100%;
+  height: 40px;
+}
+
+#contact input[type="text"],
+#contact input[type="email"] {
+  width: 100%;
+}
+
+#message {
+  width: 100%;
+  height: 100px;
+}
+
+#contact div {
+  padding: 0 10px;
+  margin-top: 5px;
+}
+
+
+
+table,
+td {
+  border: 1px solid #ccc;
+}
+
+table {
+  min-width: 500px;
+}
+
+th {
+  width: 25%;
+}
+
+th {
+  background-color:darkorchid;
+  color: white;
+
+}
+footer{
+    background-color: cyan;
+    margin-top: 10px;
+}*/

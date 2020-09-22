@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tiwa's Project</title>
+    <link rel="stylesheet" href="style.css">
+     <div id="header">
+        <h1>Technical Documentation Page</h1>
+        <h3>JS Documentation Page</h3>
+    </div>
+    </head>
+    
+<body>
+    <div id="navbar">
+    <ul>
+        <li><a href="Index.html">Overview</a></li>
+        <li><a href="./Intro.html">Introduction</a></li>
+        <li><a href="WhatTo.html">What To Know</a></li>
+        <li><a href="NodeJS.html">JavaScript &amp; NodeJS</a></li>
+        <li><a href="Survey.html">Survey</a></li>
+    </ul>
+    </div>
+    <div id="img">
+        <img src="java.png">
+    </div>
+    <div id="Intro">
+    <h2>Introduction</h2><hr>
+        <p>JavaScript is a cross-platform, object-oriented scripting language. It is a small and lightweight language. Inside a host environment (for example, a web browser), Javascript can be connected to the objects of its envronment to provide progmatic contron over them. longside HTML and CSS, JavaScript is one of the core technologies of the World Wide Web. JavaScript enables interactive web pages and is an essential part of web applications. The vast majority of websites use it for client-side page behavior, and all major web browsers have a dedicated JavaScript engine to execute it.</p>
+        <p>As a multi-paradigm language, JavaScript supports event-driven, functional, and imperative programming styles. It has application programming interfaces (APIs) for working with text, dates, regular expressions, standard data structures, and the Document Object Model (DOM). However, the language itself does not include any input/output (I/O), such as networking, storage, or graphics facilities, as the host environment (usually a web browser) provides those APIs.<br>
+
+        JavaScript engines were originally used only in web browsers, but they are now embedded in some servers, usually via Node.js. They are also embedded in a variety of applications created with frameworks such as Electron and Cordova.</p>
+        </div>
+    <div id="WhatTo">
+        <H2>What To Know</H2><hr>
+        <p>The Mosaic web browser was released in 1993. As the first browser with a graphical user interface accessible to non-technical people, it played a prominent role in the rapid growth of the nascent World Wide Web. The lead developers of Mosaic then founded the Netscape corporation, which released a more polished browser, Netscape Navigator, in 1994. Navigator quickly became the most used browser.<br>
+
+        During these formative years of the Web, web pages could only be static, lacking the capability for dynamic behavior after the page was loaded in the browser. There was a desire in the burgeoning web development scene to remove this limitation, so in 1995, Netscape decided to add a scripting language to Navigator. They pursued two routes to achieve this: collaborating with Sun Microsystems to embed the Java programming language, while also hiring Brendan Eich to embed the Scheme language.</p>
+        <p>Netscape management soon decided that the best option was for Eich to devise a new language, with syntax similar to Java and less like Scheme or other extant scripting languages. Although the new language and its interpreter implementation were officially called LiveScript when first shipped as part of a Navigator release in September 1995, the name was changed to JavaScript three months later.<br>
+
+        The choice of the JavaScript name has caused confusion, sometimes giving the impression that it is a spin-off of Java. Since Java was the hot new programming language at the time, this has been characterized as a marketing ploy by Netscape to give its own new language cachet</p>
+    </div>
+    <div id="NodeJS">
+        <h2>JavaScript and NodeJS</h2><hr>
+        <p>JavaScript’s rising popularity has brought with it a lot of changes, and the face of web development today is dramatically different. The things that we can do on the web nowadays with JavaScript running on the server, as well as in the browser, were hard to imagine just several years ago, or were encapsulated within sandboxed environments like Flash or Java Applets.<br>
+
+        Before digging into Node.js solutions, you might want to read up on the benefits of using JavaScript across the stack which unifies the language and data format (JSON), allowing you to optimally reuse developer resources. As this is more a benefit of JavaScript than Node.js specifically, we won’t discuss it much here. But it’s a key advantage to incorporating Node in your stack.</p>
+        <p>As Wikipedia states: “Node.js is a packaged compilation of Google’s V8 JavaScript engine, the libuv platform abstraction layer, and a core library, which is itself primarily written in JavaScript.” Beyond that, it’s worth noting that Ryan Dahl, the creator of Node.js, was aiming to create real-time websites with push capability, “inspired by applications like Gmail”. In Node.js, he gave developers a tool for working in the non-blocking, event-driven I/O paradigm. After over 20 years of stateless-web based on the stateless request-response paradigm, we finally have web applications with real-time, two-way connections.</p>
+    </div>
+    
+    <div id="survey">
+        <h2>Survey Form</h2><hr>
+        <p>Let us know how we can improve FreeCode Camp</p>
+        <form>
+        <fieldset>
+       <b><sup>*</sup>Full Name:</b> <input type="text" name="name" value="Enter Your Full Name"><br><br>
+        <b><sup>*</sup>Email:</b> <input type=email name="email" value="Enter Your Email Address"><br><br>
+        <b><sup>*</sup>Age:</b> <input type=number name="Age" value="Enter Your Age"><br><br>
+        <b>Which option best describes your current role?</b> <Select>
+            <option value="Student">Student</option>
+            <option value="Graduate">Graduate</option>
+            <option value="Worker">Worker</option>
+            <option value="Management">Management</option>
+            <option value="Freelancer">Freelancer</option>
+            </Select><br><br>
+        <b>How likely are you to recommend FreeCode Camp to a Friend?</b> <br>
+        <input type="radio" name="option" value="Definitely">Definitely<br>
+        <input type="radio" name="option" value="Maybe">Maybe<br>
+        <input type="radio" name="option" value="Not Sure">Not Sure<br>
+        <input type="radio" name="option" value="Defintely Not">Definitely Not<br><br>
+        <b>What do you like most in FCC:</b><Select>
+            <option value="Classes">Classes</option>
+            <option value="Practicals">Practicals</option>
+            <option value="Lecturers">Lecturers</option>
+            <option value="Focus Groups">Focus Groups</option>
+            <option value="Internships">Internships</option>
+            </Select> <br><br>
+        <b>Things that should be improved in the future:<br>
+        (Check all that apply)</b><br>
+            <input type="checkbox" value="Front-End Projects">Front-End Projects<br>
+            <input type="checkbox" value="Back-End Projects">Back-End Projects<br>
+            <input type="checkbox" value="Data Visualization">Data Visualizations<br>
+            <input type="checkbox" value="Database Projects">Database Projects<br>
+            <input type="checkbox" value="JavaScript">JavaScript<br><br>  
+            <b>Please add additional input:</b> <textarea>Message Here</textarea><br><br>
+            <input type="submit">
+            </fieldset>
+        </form>
+ 
+    <p>Forms are useful to collect data online. This project will test your skills in all sorts of inputs, and your knowledge of forms and structuring the webpage. The form is not required to send any data. This will test your knowledge of both HTML and CSS. You will be required to practice creating columns and aligning items within the columns. In addition, you will also need to do basic editing of images (e.g., cropping and resizing to make perfect images for your web page).</p>
+           </div>
+</body>
+    <footer><b>Tiwalope Shadare &copy; 2020</b></footer>
+</html>
+
+
+
+
+
+
+
+
+<!--<body>
+    <h1>INDEX PAGE</h1>
+    <div class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a> </li>
+            <li><a href="about.html">About</a> </li>
+            <li><a href="contact.html">Contact</a> </li>
+            <li><a href="https://www.google.ca/" target="_blank">Google</a></li>
+        </ul>
+    </div> <img src="Flowers.jpg" alt="placeholder image">
+    <h2>CONTACT FORM</h2>
+    <form action="contact.html" id="contact">
+  <fieldset>
+    <div>
+      <label for="name">Your Name</label>
+      <input type="text" name="name" id="name"> </div>
+    <div>
+      <label for="email">Your Email</label>
+      <input type="email" name="email" id="email"> </div>
+    <div>
+      <label for="seldept">Which Department?</label>
+      <select name="seldept" id="seldept">
+                    <option value="1">Shipping</option>
+                    <option value="2">Sales</option>
+                    <option value="3">Marketing</option>
+                </select>
+    </div>
+    <div>
+      <label for="message">Message</label>
+      <br>
+      <textarea name="message" id="message"></textarea>
+    </div>
+    <div>
+      <input type="submit" value="Contact Us">
+    </div>
+  </fieldset>
+</form>
+
+
+    <div>This is new div content <span class="green">content allows you to make grouping without affecting the look of the output</span> end of div</div>
+    <div>This is new div content <span>content allows you to make grouping without affecting the look of the output</span> end of div</div>
+    <h2 id="moreinfo">More information</h2>
+    <div>This is new div content <span class="green">content allows you to make grouping without affecting the look of the output</span> end of div</div>
+    <dl> <dt>First Set</dt>
+        <dd>item 1</dd>
+        <dd>item 2</dd>
+        <dd>item 3</dd> <dt>Second Set</dt>
+        <dd>item 1</dd>
+        <dd>item 2</dd>
+        <dd>item 3</dd>
+    </dl>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Age</th>
+    <th>Location</th>
+  </tr>
+  
+  <tr>
+    <td>Laurence</td>
+    <td>40</td>
+    <td>Toronto</td>
+  </tr>
+  <tr>
+    <td>Mike</td>
+    <td>25</td>
+    <td>Miami</td>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>50</td>
+    <td>New York</td>
+  </tr>
+  <tr>
+    <td colspan="3"><b>TOTAL PEOPLE = 3</b></td>
+  </tr>
+</table>
+
+
+</body>
+    
+<footer><b>Tiwalope Shadare &copy;2020</b></footer>
+
+</html>-->
+
